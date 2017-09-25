@@ -22,8 +22,4 @@ pod 'MicrosoftExchangeKit-iOS-Pod'
 
 ## Author
 
-louieyune, lyuen@jibestream.com
-
-## License
-
-MicrosoftExchangeKit-iOS-Pod is available under the MIT license. See the LICENSE file for more info.
+louieyuen, lyuen@jibestream.com
