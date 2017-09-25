@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		504B3936F1F2967547BD62563DFAB50C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		68544F7733BCF92A3E39291BB905BC8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A516B7EA1A15E07BA7B9B9A20ADE4FD1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1474A88E341ABF41D21A0FD7EB9AD4C1 /* ReplaceMe.m */; };
 		D48E9BAF7C0CD057DF65C15E8F9F9C91 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F5B826A5AD2FB3E689527150835795 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m */; };
 		D532A06C40216F64D9566294DB45004F /* MicrosoftExchangeKit-iOS-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBF36642E21CF9F7116F7D7B9AE3AA2 /* MicrosoftExchangeKit-iOS-Pod-dummy.m */; };
 		E0F864D01D3CC4D9BDB1589932665C22 /* MicrosoftExchangeKit-iOS-Pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3666DDDF7288B9A59351E8C424C692AA /* MicrosoftExchangeKit-iOS-Pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,10 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CDC34557C4474EAF6BFAA74CAFC071B /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap"; sourceTree = "<group>"; };
+		0CDC34557C4474EAF6BFAA74CAFC071B /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.modulemap"; sourceTree = "<group>"; };
 		0E058E2CA96F882434681DBDE3E6A6EE /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0F0A640F3EF22183BD1967EDCC3C553C /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1474A88E341ABF41D21A0FD7EB9AD4C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "MicrosoftExchangeKit-iOS-Pod/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
 		3666DDDF7288B9A59351E8C424C692AA /* MicrosoftExchangeKit-iOS-Pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MicrosoftExchangeKit-iOS-Pod-umbrella.h"; sourceTree = "<group>"; };
 		5F3F7DBABA9867EA30D68F6314B880F3 /* MicrosoftExchangeKit-iOS-Pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MicrosoftExchangeKit-iOS-Pod-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -38,11 +36,11 @@
 		778F95191571753F4FC5BB70A78326FB /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-resources.sh"; sourceTree = "<group>"; };
 		7D571E8556B3DD23C90F0E35A21B9626 /* MicrosoftExchangeKit-iOS-Pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftExchangeKit-iOS-Pod.xcconfig"; sourceTree = "<group>"; };
 		81F5B826A5AD2FB3E689527150835795 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9593EDCEDFE8577D8CA9FE520AA41E20 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB79A260285DC62F0B23E97B59C998F6 /* MicrosoftExchangeKit_iOS_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MicrosoftExchangeKit_iOS_Pod.framework; path = "MicrosoftExchangeKit-iOS-Pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF974AC01372C633D72024C37E0C7B1E /* Pods_MicrosoftExchangeKit_iOS_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MicrosoftExchangeKit_iOS_Pod_Tests.framework; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C573C4939D5CA72AFA13B25007C22872 /* MicrosoftExchangeKit-iOS-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "MicrosoftExchangeKit-iOS-Pod.modulemap"; sourceTree = "<group>"; };
+		AB79A260285DC62F0B23E97B59C998F6 /* MicrosoftExchangeKit_iOS_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MicrosoftExchangeKit_iOS_Pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF974AC01372C633D72024C37E0C7B1E /* Pods_MicrosoftExchangeKit_iOS_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicrosoftExchangeKit_iOS_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C573C4939D5CA72AFA13B25007C22872 /* MicrosoftExchangeKit-iOS-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "MicrosoftExchangeKit-iOS-Pod.modulemap"; sourceTree = "<group>"; };
 		D0FB92BB98F8CA2196748C950A9F12CC /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB55BCD093C1667268FDFB899CEE0E09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC06079FC085BFD0CC64B9AE8C389E05 /* Pods-MicrosoftExchangeKit-iOS-Pod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MicrosoftExchangeKit-iOS-Pod_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -100,7 +98,7 @@
 		3549804A98CB394AB974321BBBA980BD /* MicrosoftExchangeKit-iOS-Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1474A88E341ABF41D21A0FD7EB9AD4C1 /* ReplaceMe.m */,
+				C6B6FD9F1F798BF600121321 /* Frameworks */,
 				7F859FDF3801BDC8D9F0ED441B4E8A93 /* Support Files */,
 			);
 			name = "MicrosoftExchangeKit-iOS-Pod";
@@ -138,6 +136,13 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B6FD9F1F798BF600121321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		CB4E79839AEF9DF4E129D20678528A03 /* Targets Support Files */ = {
@@ -254,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D532A06C40216F64D9566294DB45004F /* MicrosoftExchangeKit-iOS-Pod-dummy.m in Sources */,
-				A516B7EA1A15E07BA7B9B9A20ADE4FD1 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
