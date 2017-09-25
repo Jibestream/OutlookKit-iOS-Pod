@@ -1,0 +1,6 @@
+framework module MicrosoftExchangeKit_iOS_Pod {
+  umbrella header "MicrosoftExchangeKit-iOS-Pod-umbrella.h"
+
+  export *
+  module * { export * }
+}
