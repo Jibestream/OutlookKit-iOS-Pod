@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MicrosoftExchangeKit-iOS-Pod_Tests' do
+  pod 'MicrosoftExchangeKit-iOS-Pod', :path => '../'
+  
+  
+end
