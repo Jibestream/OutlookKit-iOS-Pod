@@ -1,4 +1,4 @@
-# MicrosoftExchangeKit-iOS-Pod
+# OutlookKit-iOS-Pod
 
 [![CI Status](http://img.shields.io/travis/louieyune/MicrosoftExchangeKit-iOS-Pod.svg?style=flat)](https://travis-ci.org/louieyune/OutlookKit-iOS-Pod)
 [![Version](https://img.shields.io/cocoapods/v/MicrosoftExchangeKit-iOS-Pod.svg?style=flat)](http://cocoapods.org/pods/OutlookKit-iOS-Pod)
@@ -17,7 +17,7 @@ OutlookKit-iOS-Pod is available through [CocoaPods](http://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'OutlookKit-iOS-Pod'
+pod 'OutlookKit-iOS-Pod', :git => 'https://github.com/Jibestream/OutlookKit-iOS-Pod.git'
 ```
 
 ## Author
