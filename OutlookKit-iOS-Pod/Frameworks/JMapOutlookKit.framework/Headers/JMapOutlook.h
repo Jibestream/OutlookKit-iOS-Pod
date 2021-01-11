@@ -15,6 +15,7 @@
 #import "JMapStatus.h"
 #import "JMapUserRecord.h"
 #import "JMapRange.h"
+#import <WebKit/WebKit.h>
 
 @class ViewController;
 /**
@@ -33,7 +34,7 @@
 /**
  * The JMapOutlook interface
  */
-@interface JMapOutlook : NSObject <UIWebViewDelegate>
+@interface JMapOutlook : NSObject <WKNavigationDelegate>
 
 /**
  * The JMapController reference to the SDK
