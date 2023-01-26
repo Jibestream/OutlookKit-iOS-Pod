@@ -17,8 +17,8 @@ s.version='1.0.3'
   s.author           = { 'louieyuen' => 'lyuen@jibestream.com' }
   s.source           = { :git => 'https://github.com/Jibestream/OutlookKit-iOS-Pod', :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.platform = :ios, '9.0'
-  s.vendored_frameworks = 'OutlookKit-iOS-Pod/Frameworks/*.framework'
+  s.platform = :ios, '10.0'
+  s.vendored_frameworks = 'OutlookKit-iOS-Pod/Frameworks/*.xcframework'
 end
