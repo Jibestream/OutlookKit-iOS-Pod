@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OutlookKit-iOS-Pod'
-s.version='1.0.3'
+s.version='1.1.0'
   s.summary          = 'The Jibestream OutlookKit for iOS.'
 
   s.description      = 'OutlookKit that integrates with the Jibestream iOS SDK.'
