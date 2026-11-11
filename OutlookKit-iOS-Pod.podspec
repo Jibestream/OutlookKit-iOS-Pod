@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OutlookKit-iOS-Pod'
-s.version='1.1.0'
+s.version='2.0.0'
   s.summary          = 'The Jibestream OutlookKit for iOS.'
 
   s.description      = 'OutlookKit that integrates with the Jibestream iOS SDK.'
@@ -17,8 +17,7 @@ s.version='1.1.0'
   s.author           = { 'louieyuen' => 'lyuen@jibestream.com' }
   s.source           = { :git => 'https://github.com/Jibestream/OutlookKit-iOS-Pod', :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '10.0'
-  s.dependency "JMapiOSSDK"
-  s.platform = :ios, '9.0'
+  s.dependency "JMapiOSSDK", "~> 6.0"
+  s.platform = :ios, '15.0'
   s.vendored_frameworks = 'OutlookKit-iOS-Pod/Frameworks/*.xcframework'
 end
